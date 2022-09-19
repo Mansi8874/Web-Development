@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 7</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            border: 4px solid olive;
+        }
+        .main>.nav{
+            background-color: aquamarine;
+            color: black;
+            padding: 20px;
+            width: 20%;
+            height: 700px;
+        }
+        .wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .mini{
+            display: flex;
+            background-color: greenyellow;
+            color: black;
+            padding: 20px;
+            width: 100%;
+            flex-grow: .2;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .article{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            width: 100%;
+            flex-grow: .6;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h1>Nav</h1>
+        </div>
+        <div class="wrapper">
+            <h1 class="mini">Header</h1>
+            <h1 class="article">Article</h1>
+            <h1 class="mini">Footer</h1>
+        </div>
+    </div>
+</body>
+</html>
