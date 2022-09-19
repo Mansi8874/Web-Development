@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4</title>
+    <style>
+    *{
+            box-sizing: border-box;
+        }
+        .heading{
+            background-color: rgb(243, 3, 147);
+            color: white;
+            background-position: center;
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+        }
+        h1{
+            text-align:center;
+            padding: 75px 0;
+        }
+        .link{
+            background-color: black;
+            position: sticky;
+            top: 0; 
+        }
+        .houses{
+            color: white;  
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .rakes{
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .shovels{
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Products</h1>
+    </div>
+    <div class="link" >
+        <nav>
+        <a class="houses" href="#">Houses</a>
+        <a class="rakes" href="#">Rakes</a>
+        <a class="shovels" href="#">Shovels</a>
+    </nav>
+    </div>
+    <h2>Houses</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis eligendi impedit eos sunt nihil incidunt laudantium, numquam saepe, perspiciatis eum, quo dolor distinctio tempore maiores libero mollitia corporis! Consequuntur voluptates et ipsum laudantium, aliquid pariatur ipsam. Illo cum quod expedita harum porro laudantium minus ad dicta excepturi illum modi, magni, tenetur velit optio earum enim, reiciendis quas nam ea!</p>
+    <h2>Rakes</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius corporis rem harum dolorem atque sint qui, recusandae illo perspiciatis enim. Quam nisi quibusdam voluptate quae explicabo obcaecati, asperiores perspiciatis culpa dolorem quos ea rem fugit numquam voluptatum ad incidunt assumenda deleniti magnam esse! Quas odit, modi ipsum in accusamus facilis laudantium fugiat voluptas unde qui iure, similique obcaecati est repudiandae.</p>
+    <h2>Shovels</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reprehenderit rerum expedita animi illum autem recusandae laboriosam accusamus fugit, cumque unde, incidunt quas, tempora ad enim illo quos. Corporis cupiditate dicta molestias sed dolor excepturi eligendi veritatis, consequuntur possimus reiciendis sint quae, aperiam aspernatur, voluptatum doloremque sapiente pariatur! Commodi accusamus incidunt eum fuga delectus itaque unde inventore ipsa magnam numquam.</p>
+</body>
+</html>
