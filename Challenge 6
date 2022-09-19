@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 5</title>
+    <style>
+        .wrapper{
+            display: flex;
+        }
+        .wrapper>div{
+            flex-direction: row;
+            margin: 20px;
+            background-color: rgb(242, 222, 94);
+            color: black;
+            padding: 20px;
+            width: 33%;
+            height: 50%;
+            justify-content: center;
+            border: 2px solid rgb(189, 236, 226);
+        }
+        .wrapper>div img{
+            width: 100%;
+            height: 200px;
+            border-radius: 0px;
+            border: 2px solid black;
+            box-shadow: 1px 2px 3px 4px;
+        }
+        .wrapper>div h1{
+            text-align: center;
+            text-shadow: 1px 2px 3px 0px;
+            
+        }
+        .wrapper>div h2{
+            padding: left;
+            text-align: left;
+        }
+        .wrapper>div button{
+            padding: 12px 55px 12px 55px;
+            color: white;
+            background-color: gray;
+            border: none;
+            text-align: center;
+            margin-left: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <img src="1.jpg" alt="">
+            <h1>SeamLessly visualize quality</h1>
+            <h2>Collaboratively administrate empowered markets via plug-and-play networks.</h2>
+            <button>Read more</button>
+        </div>
+        <div>
+            <img src="2.jpg" alt="" >
+            <h1>Completely Synergize</h1>
+            <h2>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration adn idea-sharing.</h2>
+            <button>Read more</button>
+        </div>
+        <div>
+            <img src="3.jpg" alt="">
+            <h1>Dynamically Procrastinate</h1>
+            <h2>Completely synergize resource taxing relationship via premier niche markets.</h2>
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div>
+            <img src="4.jpg" alt="">
+            <h1>Best in class</h1>
+            <h2>Imaging jumping into that boat, and just letting it sail wherever the wind takes you...</h2>
+            <button>Read more</button>
+        </div>
+        <div>
+            <img src="5.jpg" alt="">
+            <h1>Dynamically innovate supply chains</h1>
+            <h2>Holisticly predominate extensible testing procedures for reliable suppply chains.</h2>
+            <button>Read more</button>
+        </div>
+        <div>
+            <img src="6.jpg" alt="">
+            <h1>Sanity Check</h1>
+            <h2>Objectively innovate empowered manufactured products whereas parallel platforms.</h2>
+            <button>Read more</button>
+        </div>
+    </div>
+</body>
+</html>
