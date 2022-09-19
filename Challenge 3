@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 3</title>
+    <style>
+    .Boxes{
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 40px;
+            border: 4px solid darkolivegreen;
+        }
+        .Box{
+            background-color: lightskyblue;
+            color: white;
+            border-radius: 6px;
+            border: darkblue;
+            margin: 2px;
+        }
+        .box1{
+            float: left;
+            margin: 6px;
+            background-color: rgb(167, 235, 8);
+        }
+        .box2{
+            float: right;
+            margin: 6px;
+            background-color: rgb(167, 235, 8);
+        }
+        .box3{
+            float: left;
+            margin: 6px;
+            background-color: rgb(167, 235, 8);
+        }
+        .box4{
+            float: right;
+            margin: 6px;
+            background-color: rgb(167, 235, 8);
+        }
+    </style>
+</head>
+<body>
+    <div class="Boxes">
+        <div class="Box">
+            <img class="box1" src="user.jpg" alt="" width="50px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aliquid corporis quis hic modi laborum fuga itaque! Sit vel ratione dolorem. Sunt sequi debitis delectus, qui nobis inventore maxime, rerum corporis minus eius aspernatur incidunt blanditiis optio! Fugiat, blanditiis illo?</p>
+        </div>
+        <div class="Box">
+            <img  class="box2" src="user.jpg" alt="" width="50px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum obcaecati maxime libero illo porro et omnis cumque neque accusantium tenetur rem iure beatae provident quidem officia deleniti voluptate alias eveniet repellendus ex laboriosam, culpa eius. Neque atque fugit animi.</p>
+        </div>
+        <div class="Box">
+            <img class="box3" src="user.jpg" alt="" width="50px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis assumenda aut obcaecati placeat vero officiis veritatis sequi, nihil deleniti optio laborum animi! Praesentium consequuntur eligendi maiores optio architecto culpa? Repudiandae nam ratione dolor. Reprehenderit sed neque consectetur sunt ad?</p>
+        </div>
+        <div class="Box">
+           <img class="box4" src="user.jpg" alt="" width="50px">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat velit dolorum consequatur ab at vero doloribus beatae maiores? Fugiat reiciendis rerum sequi pariatur odio atque sint harum minus tempore recusandae, exercitationem at voluptate impedit ratione neque accusantium voluptatum sit.</p>
+        </div>
+
+</div>
+</body>
+</html>
