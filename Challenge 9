@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 9</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 20% 80%;
+        }
+        .class2{
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 80% 20%;
+        }
+        .class{
+            display: grid;
+            grid-gap: 5px;
+                  
+        }
+        .class3{
+            background-color: rgb(236, 236, 133);
+            border: yellow solid 2px;
+            border-radius: 3px;
+        }
+        div.class5{
+            display: grid;
+            grid-template-rows: 200px 600px 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class">
+            <div class="class3">Nav</div>
+        </div>
+        <div class="class class5">
+                <div class="class3">Header</div>
+                <div class="class2">
+                    <div class="class3">Article</div>
+                    <div class="class3">Ads</div>
+                </div>
+                <div class="class3">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
