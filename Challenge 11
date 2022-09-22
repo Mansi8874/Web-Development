@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Kaksha | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="C:\Users\Mansi Singh\Desktop\Web development\Starting lecture\favicon.zip">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            list-style: none;
+
+        }
+        body{
+            margin: 0px;
+        }
+        /* header{
+            padding: 50px;
+            text-align: center;
+            background: rgb(17 143 158);
+            color: #edf1f2;
+        } */
+        /* header h1{
+            font-size: 40px;
+        } */
+        nav{
+            background-color: #333;
+            display: flex;
+        }
+        nav a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+        }
+        section{
+            text-align: center;
+            padding-top: 40px;
+            height: 100vh;
+        }
+        section:nth-child(even){
+            background-color: aqua;
+        }
+        img{
+            padding: 0px 20px;
+        }
+        video{
+            padding: 0px 20px;
+        }
+        h2{
+            padding-bottom: 20px;
+        }
+        footer{
+            overflow: hidden;
+            background-color: #333;
+        }
+        footer a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+        }
+        .copyright{
+            float: right;
+        }
+        .banner{
+            background-image: url(android-chrome-192x192.png);
+            height: 20vw;
+            min-height: 100px;
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 20%;
+            background-attachment: fixed;
+        }
+        header{
+            background-color: black;
+        }
+        * { box-sizing: border-box; }
+
+        body { font-family: sans-serif; }
+
+        .carousel {
+            background: #EEE;
+        }
+
+        .carousel-cell {
+            width: 66%;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .carousel-cell video{
+            max-width: 100%;
+        }
+
+        @media  screen and(max-width: 700px) {
+            nav{
+                flex-direction: column;
+                padding: 10px 0px;
+            }
+            .align{
+            margin-left: 0;
+        }
+        }
+        .align{
+            margin-left: auto;
+        }
+        .menu:hover{
+            background-color: white;
+            color: black;
+        }
+        section h2 span{
+            background: linear-gradient(45deg, blue, red);
+            padding: 10px 55px;
+            border-radius: 20px;
+            color: white;
+        }
+        .img-res{
+            max-width: 100vh;
+            height: 100vh;
+        }
+        .profile{
+            border-radius: 50%;
+        }
+        .profile_name{
+            font-size: 2em;
+            font-weight: 900;
+            letter-spacing: 4px;
+            word-spacing: 10px;
+            text-transform: uppercase;
+            margin: 20px 0px 30px 0px;
+        }
+        .handle a{
+            background-color: darkkhaki;
+            padding: 10px 15px;
+            border-radius: 30px;
+            margin: 5px 10px;
+            text-decoration:  none;
+        }
+        .linkedin{
+            color: blue;
+        }
+        .youtube{
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <nav>
+        <a href="#" class="menu">Home</a>
+        <a href="#" class="menu">College Reviews</a>
+        <a href="#" class="menu">Courses</a>
+        <a href="#" class="menu">Study Materials</a>
+        <a href="#" class="menu align">Login/SignUp</a>
+    </nav>
+    <main>
+        <section>
+            <h2><span> Courses</span> </h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            </div>
+        </section>
+        <section>
+            <h2><span> College Reviews </span></h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            <div class="carousel-cell">
+                <video src="../video/VID-20220225-WA0012.mp4" controls></video>
+            </div>
+            </div>
+        </section>
+        <section>
+            <h2><span>Study Materials </span></h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <a href="../photo/IMG-20220516-WA0029.jpg"><img  class="img-res" src="../photo/IMG-20220822-WA0018.jpg" alt=""></a>
+            </div>
+            <div class="carousel-cell">
+                <a href="../photo/IMG-20220528-WA0025.jpg"><img class="img-res" src="../photo/IMG-20220822-WA0011.jpg" alt=""></a>
+            </div>
+            </div>
+        </section>
+        <section>
+            <h2><span>Our founder</span></h2>
+            <img class="profile" src="../photo/IMG-20220601-WA0055.jpg" alt="This is Mansi singh" width="33%">
+            <h3 class="profile_name">Mansi Singh</h3>
+            <div class="handle">
+            <a href="https://www.linkedin.com/in/mansi-singh-5163081ab" class="linkedin" target="_blank"> <i class="fa fa-linkedin fa-lg linkedin"></i> LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/mansi-singh-5163081ab" class="youtube" target="_blank"> <i class="fa fa-youtube fa-lg youtube"></i> LinkedIn</a>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium eum quam blanditiis explicabo ab, molestias aliquid suscipit reprehenderit tempore enim beatae! Fugit earum illum necessitatibus eligendi corporis. Maiores, accusantium.</h4>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#" class="menu">FAQ</a>
+        <a href="#" class="menu">contact us</a>
+        <a href="#" class="menu">privacy policy</a>
+        <a class="menu copyright" href="#">&copy; 2020 apni kaksha</a>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+</html>
